@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta http-equiv="refresh" content="" >
+
+    <title>Avi Meshram | Personal Portfolio </title>
+	
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="images/favi.jpg"/>
+   <link href="css/style.css" rel="stylesheet" type="text/css">
+   <link href="css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/mob_style.css" rel="stylesheet" type="text/css">
+	<link href="css/mob365.css" rel="stylesheet" type="text/css">
+	<script src="/js/myQuery.js"></script>
+</head>
+<body>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction();myFunction1();}
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+/* When the user scrolls down from the top menu fixed at Top*/
+ 
+function myFunction1() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("topmenu").className = "sticky";
+    } else {
+        document.getElementById("topmenu").className = "";
+    }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+/*Responsive navbar <li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myResponsive()">&#9776;</a></li>*/
+function myResponsive() {
+    var x = document.getElementById("topmenu");
+    if (x.className === "topmenu") 
+	{
+        x.className += " responsive";
+    } else {
+        x.className = "topmenu";
+    }
+}
+</script>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div  class="navbar" id="navbar">
+<h1 align="center"><i>MY BEGIN...</i></h1>
+</div>
+
+<div id="topmenu" class="topmenu" align="center" >
+<ul style="margin-top:25px;">
+  <li ><a href="#topmenu">HOME</a></li>
+  <li ><a href="#main">ABOUT</a></li>
+  <li><a href="#portfolio">PORTFOLIO</a></li>
+  <li><a href="#services">TESTIMONIAL</a></li>
+  <li><a href="#contact">CONTACT</a></li>
+</ul>
+</div>
+<div id="banner"><hr>
+<h1 align="center"><i>Hello I'M Avinash Meshram</i></h1>
+<h3 align="center"  ><i>Web Designer + Developer</i></h3><br>
+</div>
+<div id="main" class="main" align="center">
+<div class="about" >
+<div class="vrline" id="vrline"></div>
+<div class="about_head" id="about_head" >
+<h3 align="left">About Me</h3>
+<h2 align="left">Who I Am</h2><br><br><br>
+</div>
+	<div class="photo" id="photo" align="left" >
+			<img src="images/avi.jpg" >
+			<hr>
+	</div>
+	
+		<div class="info" id="info" style="text-align:left;">
+				<h1>Avinash K. Meshram</h1>
+				<p>
+				<br><br><label><u>College :-</u></label> JSPM'S BSIOTR Wagoli,pune<br><br>
+				<label><u>Diploma :-</u></label> 1.Computer Engineering <br>2.Hardware and Networking
+			</p>
+			<br>
+			<div class="cv">
+			<button class="button1" style="vertical-align:middle" onclick="window.open('Desktop/result te.pdf')"><span>Download CV </span></button>
+			<div class="cv1">
+						<a href="#"><i class="fa fa-google-plus-official">&nbsp;&nbsp;</i></a>
+						<a href="#"><i class="fa fa-facebook-square">&nbsp;&nbsp;</i></a>
+						<a href="#"><i class="fa fa-twitter" >&nbsp;&nbsp;</i></a>
+						<a href="#"><i class="fa fa-linkedin-square" >&nbsp;&nbsp;</i></a>
+						<a href="#"><i class=" fa fa-youtube-play">&nbsp;&nbsp;</i></a>						
+				</div>
+			</div>
+	</div>
+</div><br>
+<div class="services" id="services">
+		<div class="vrline" id="vrline"></div>
+		  <div class="service_head" align="left"><h3 >Services</h3><h2>what things i am doing...</h2></div>
+		  <div class="service_content">
+		<div class="service_web"><img class="img2" src="images/wordpress-logo.png"></div>
+		<div class="service_android"><img class="img2" src="images/android.png"></div>	
+		<div class="service_sco"><img class="img2" src="images/php.png" ></div>
+			</div>
+</div>
+
+<div class="skill" align="center">
+	<div class="skill_content" align="left">
+				<div class="vrlineskill" id="vrlineskill"></div>
+				<div class="skill_head" id="skill_head">
+				<h3><b>Professional Skill's</b></h3></div><br>
+				
+				<div class="prog_outer"><div class="percentageFillHTML" ><h6 align="center">89%</h6></div><br><br><h5 align="center">HTML/CSS</h5></div>
+				<div class="prog_outer"><div class="percentageFilljava"><h6 align="center">65%</h6></div><br><h5 align="center">Java</h5></div>
+				<div class="prog_outer"><div class="percentageFillPHP" ><h6 align="center">75%</h6></div><br><h5 align="center">PHP</h5></div>
+				<div class="prog_outer"><div class="percentageFilljavascript"><h6 align="center">68%</h6></div><br><h5 align="center">JavaScript</h5></div>
+				<br>
+
+	</div>
+	</div>
+<br>
+<div id="portfolio" class="portfolio">
+<div class="vrlineport" id="vrlineport"></div>
+	  <div class="portfolio_head" align="left"><h2>PORTFOLIO</h2></div>
+
+		<div class="photo1" id="photo1"><img class="img3" src="images/3.jpg">
+		<div class="middle"><div class="text">Avi</div></div></div>
+		<div class="photo1"><img class="img3" src="images/1.jpg" ></div>
+		<div class="photo1"><img class="img3" src="images/2.jpg" ></div>
+		<div class="photo1"><img class="img3" src="images/3.jpg" ></div>
+		
+		<div class="photo1"><label><img class="img3" src="images/4.jpg" ></label></div>
+		<div class="photo1"><label><img class="img3" src="images/5.jpg" ></label></div>
+		<div class="photo1"><label><img class="img3" src="images/12.png" ></label></div>
+		<div class="photo1"><label><img class="img3" src="images/13.png" ></label></div>
+		
+</div><br>
+	
+<div id="contact" class="contact">
+
+<div class="vrline" id="vrline"></div>
+  <div class="contact_head" align="left"><h3 >CONTACT</h3><h2>GET IN TOUCH</h2></div>
+    <div class="cont1">
+			<div class="cont1_1" align="left"><i class="material-icons">location_on</i><br>Flat No.-17 near cosmos bank Katraj Pune 411046</div><hr>
+			<div class="cont1_2"align="left"><i class="material-icons">call</i><br>+91-9637972850</div><hr>
+			<div class="cont1_3" align="left"><i class="material-icons">mail_me</i><br>avinashk.meshram@gmail.com</div><hr>
+	</div>
+	
+	<div class="cont1" align="left">
+			<div class="cont1_comment">
+			<form action="#" name="comment">
+			<input type="text" name="name" placeholder="Name" required><br>
+			<input type="text" name="email" placeholder="E-Mail" required ><br><br>
+			<textarea name="comment" placeholder="Comment Here.." rows="8" cols="55" required ></textarea><br><br>
+			<button class="button" style="vertical-align:middle"><span>Submit </span></button>
+			</form>
+			</div>
+	</div>
+ </div><br>
+ <div class="map">
+ <div class="map_content">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.6744151411403!2d73.84753081477449!3d18.45308623744829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eacec3b2dcc5%3A0x260227a186fbfda6!2sPriyal+Residency%2C+Chandrabhaga+Nagar+Rd%2C+Kalubai+Nagar%2C+Shriram+Nagar%2C+Dhankawadi%2C+Pune%2C+Maharashtra+411046!5e0!3m2!1sen!2sin!4v1505843393344" 
+ width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen ></iframe>
+ </div>
+ </div>
+ <div class="footer1">
+ <div class="footer1_content">
+<a href="#navbar">
+<h3 align="center"><i>MY BEGIN...</i></h3>
+</a>
+			<div class="cv2" align="center">
+						<a href="#"><i class="fa fa-google-plus" aria-hidden="true">&nbsp;&nbsp;</i></a>
+						<a href="#"><i class="fa fa-facebook"  aria-hidden="true">&nbsp;&nbsp;</i></a>
+						<a href="#"><i class="fa fa-twitter"  aria-hidden="true">&nbsp;&nbsp;</i></a>
+						<a href="#"><i class="fa fa-linkedin"  aria-hidden="true">&nbsp;&nbsp;</i></a>
+						<a href="#"><i class=" fa fa-youtube"  aria-hidden="true">&nbsp;&nbsp;</i></a>						
+				</div>
+				<i>© 2017 Designed by Avi</i>
+				<div class="etx"></div>
+ </div>
+ </div>
+</div>
+</body>
+</html>
